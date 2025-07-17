@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# Week 7 DevOps Deployment Assignment
 
-## Project info
+This is a full-stack web application developed as part of the **Week 7 DevOps Deployment Assignment**.
 
-**URL**: https://lovable.dev/projects/32cef84c-cf77-4cf4-aa32-1e7225911bc9
+## 🔧 Project Structure
 
-## How can I edit this code?
+week-7-devops-deployment-assignment/
+├── frontend/ # Vite + React (Client)
+├── backend/ # Express.js (API)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Live Deployment
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/32cef84c-cf77-4cf4-aa32-1e7225911bc9) and start prompting.
+- **Frontend (Vercel):** [View Frontend](https://your-frontend-url.vercel.app)
+- **Backend (Render):** [View Backend](https://your-backend-url.onrender.com)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📁 Frontend
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The frontend was built using **React + Vite**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Run locally:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+cd frontend
+npm install
 npm run dev
+
+🖥️ Backend
+
+The backend is powered by Node.js + Express.
+Run locally:
+
+cd backend
+npm install
+npm start
+
+🛠️ Features
+
+    Full-stack deployment on Render and Vercel
+
+    Modern frontend with Tailwind CSS and Vite
+
+    REST API backend using Express
+
+🧑‍💻 Author
+
+Mary Muoki — GitHub
+📄 License
+
+This project is licensed for educational use only.
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/32cef84c-cf77-4cf4-aa32-1e7225911bc9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
